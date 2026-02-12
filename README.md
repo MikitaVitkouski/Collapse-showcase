@@ -1,6 +1,6 @@
 # FPS Collapse
 
-**Collapse** — одиночный FPS-проект, разработанный на **Unreal Engine 5.6** в соло. 
+**Collapse** — одиночный First-Person Shooter на Unreal Engine 5.
 
 ---
 
