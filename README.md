@@ -6,7 +6,10 @@
 
 ## Screenshots
 ![menu1](https://github.com/user-attachments/assets/b70c3031-b821-461c-ba83-dde8926f8ca6)
-![gameplay2](https://github.com/user-attachments/assets/470e274f-2cd0-4b21-9c72-d7df902d8a89)
+<img width="1920" height="1048" alt="lvl1_1" src="https://github.com/user-attachments/assets/612c48c0-9f67-4efc-a8bd-b21b7b3f531d" />
+<img width="1920" height="1048" alt="lvl1_2" src="https://github.com/user-attachments/assets/d3c59c71-0901-48f3-88a9-517c3391784b" />
+<img width="1920" height="1048" alt="lvl1_3" src="https://github.com/user-attachments/assets/042381f7-1a55-44bc-96cc-cb7efd8e3a95" />
+![gameplay_lvl1_1](https://github.com/user-attachments/assets/3b13d229-3bf0-4deb-ba0a-681d67c21e51)
 ![gameplay7](https://github.com/user-attachments/assets/54b9340e-a470-423e-aa9b-fc398a8d4fed)
 ![gameplay10](https://github.com/user-attachments/assets/c1c3f8c6-1bf8-42ed-bda8-b9ed1f5c32b4)
 ![menu3](https://github.com/user-attachments/assets/3186f2dd-6d7c-4d2e-8752-f22eb84f49a6)
