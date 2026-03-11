@@ -76,14 +76,13 @@
 - Speed-driven, state-driven transitions
 
 ### Footstep System
-- Animation Notify driven footsteps (`AN_Footsteps`)
-- Physical material based surface sound playback
-
+- main character: physical material based surface sound playback after reaching certain horizontal or vertical distance
+- AI: anim notify footsteps
 ---
 
 ## AI System
 
-- Vision & hearing perception
+- Vision & hearing perception, chasing player
 - Patrol logic
 - Bots can fire and throw grenades
 - Controlled spawn lifecycle
@@ -103,8 +102,8 @@
 - Line-trace registration
 - Physical material based impact effects
 - Surface-based Niagara emitters:
-  - `NS_Blood` (enemy / self hit)
-  - `NS_Spark` (headshot / metal impact)
+  - `NS_Blood` (player and AI mesh hit)
+  - `NS_Spark` (headshot)
 - Impact differentiation (enemy / environment / self)
 
 ---
@@ -115,6 +114,7 @@
 - Ammo pickups
 - Grenades
 - First aid kits
+- kevlar pickups
 - Water bottle pickups for stamina
 - Все пикапы используют **общий Interact интерфейс**
 - Drop-system с модульной логикой
@@ -132,22 +132,19 @@
 - Enemy kill tracking
 - Spawner registration & completion tracking
 - Win / Lose conditions
-- Portal activation after full enemy elimination
-- Clean separation between level logic and game progression
 
 ---
 
 ## Movement & Mechanics
 
 - Bunnyhop (timing-based)
-- Ground friction tuning
-- Air control tuning
 - Sprint / Crouch modes
 - Stamina system
 - Water restores stamina
 - Medkits restore health
 - Flashlight
-
+- Armor (kevlar) system
+- climbing ladder
 ---
 
 ## Input System
@@ -165,7 +162,7 @@
 - Crosshair
 - Health / Stamina prog bars (animated)
 - Ammo information, First Aid kits, Water Bottles, Grenades count
-- Weapon slots with highlight
+- Weapon slots
 - Kill counter
 - Directional damage indicators
 - Notifications system (queue-based)
@@ -237,7 +234,7 @@
 
 ### UI Architecture
 - Base Layout + layered widgets
-- All widgets pushed to a single layout
+- All widgets pushed to certain layers of common layout HUD class
 - Reusable sub-widgets:
   - Slider
   - Option Cycle
@@ -254,9 +251,11 @@
 - Custom landscapes
 - Manual LODs (Nanite removed for performance)
 - Baked static lighting (no Lumen for performance)
-- Spline meshes (road)
+- Spline meshes (road, river, glass fence)
 - Auto materials (snow + grass + terrain)
-- Custom modeling (light roads, asphalt + fence)
+- Custom modeling (light roads, asphalt + fence, manhole, ladders)
+- Materials (puddles, rusty metal, wet clay, sewer stone, swamp water)
+- Niagara Systems (Dust, Water Drips)
 
 ### PCG Systems
 - `PCG_Meadow`
@@ -270,19 +269,9 @@
 - Forest ambience
 - Wolves howling
 - Crickets (night levels)
+- Sewer sounds
 
 ---
-
-## Architecture & Engineering Focus
-
-Проект целенаправленно строился вокруг:
-
-- Clean architecture
-- Separation of responsibilities
-- Single Responsibility Principle
-- OOP patterns (Template Method, Observer, Strategy)
-- Maintainability > quick hacks
-- Centralized round & goal management
 
 ### Core Roles
 - **GameMode** — kills, spawners, win/lose
@@ -310,10 +299,3 @@
 - Separate save slot for settings
 
 ---
-
-## Engineering Challenges
-
-- Refactoring scattered gameplay logic into centralized systems
-- Eliminating animation-state bugs via state-driven design
-- Solving cross-level persistence via GameInstance
-- Performance optimization via manual LODs and baked lighting
