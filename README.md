@@ -1,9 +1,3 @@
-# FPS Collapse
-
-**Collapse** — A single-player first-person shooter developed in Unreal Engine 5.
-
----
-
 ## Screenshots
 <img width="1920" height="1080" alt="lvl1_screen10" src="https://github.com/user-attachments/assets/81a91b65-2b3b-4718-b4f0-18394e200d84" />
 <img width="1920" height="1080" alt="lvl1_screen12" src="https://github.com/user-attachments/assets/f3ab9be6-beae-4f40-af69-8232183261be" />
