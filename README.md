@@ -1,39 +1,27 @@
 # FPS Collapse
 
-**Collapse** — одиночный First-Person Shooter на Unreal Engine 5.
+**Collapse** — A single-player first-person shooter developed in Unreal Engine 5.
 
 ---
 
 ## Screenshots
-![menu1](https://github.com/user-attachments/assets/b70c3031-b821-461c-ba83-dde8926f8ca6)
-<img width="1920" height="1048" alt="lvl1_1" src="https://github.com/user-attachments/assets/612c48c0-9f67-4efc-a8bd-b21b7b3f531d" />
-<img width="1920" height="1048" alt="lvl1_2" src="https://github.com/user-attachments/assets/d3c59c71-0901-48f3-88a9-517c3391784b" />
-<img width="1920" height="1048" alt="lvl1_3" src="https://github.com/user-attachments/assets/042381f7-1a55-44bc-96cc-cb7efd8e3a95" />
-![gameplay_lvl1_1](https://github.com/user-attachments/assets/3b13d229-3bf0-4deb-ba0a-681d67c21e51)
-![gameplay7](https://github.com/user-attachments/assets/54b9340e-a470-423e-aa9b-fc398a8d4fed)
-![gameplay10](https://github.com/user-attachments/assets/c1c3f8c6-1bf8-42ed-bda8-b9ed1f5c32b4)
-![menu3](https://github.com/user-attachments/assets/3186f2dd-6d7c-4d2e-8752-f22eb84f49a6)
-![animation3](https://github.com/user-attachments/assets/c7433ba0-e0d1-4a82-879d-838d080d5b86)
-![gameplay12](https://github.com/user-attachments/assets/7c45f9cd-fe82-4bff-a64b-6846e82868af)
-![animation4](https://github.com/user-attachments/assets/61afb606-939c-4f79-afa0-ce101e69379d)
-![gameplay1](https://github.com/user-attachments/assets/216ab110-5e1a-4e72-80b4-87b3cf93b9c6)
-![gameplay5](https://github.com/user-attachments/assets/7f5e9ea4-efce-4461-9e5e-55f4b0195191)
-![animation1](https://github.com/user-attachments/assets/fb2617d7-669a-401b-9a54-9353e3e78851)
-![menu4](https://github.com/user-attachments/assets/43fa7a92-458b-44b3-a3a0-5d3d28c361f9)
-![gameplay6](https://github.com/user-attachments/assets/828f4a2e-6896-4261-8536-515eb9ec0bc3)
-![gameplay11](https://github.com/user-attachments/assets/3ce92b4c-7369-496b-8870-3dd99ccd5e08)
-![animation2](https://github.com/user-attachments/assets/e7b247db-5729-48c6-b900-f70471e4eadf)
-![gameplay9](https://github.com/user-attachments/assets/88f46ae0-dab0-4f70-915d-cd91a1b7b2cf)
-![gameplay3](https://github.com/user-attachments/assets/0c31da1b-5610-41fa-8a78-3ebe948daf8a)
-![gameplay8](https://github.com/user-attachments/assets/486026d2-a946-4c33-8d9d-4a56ee90ce5a)
-![menu2](https://github.com/user-attachments/assets/8a05f5fa-ca27-4660-83da-7809289a4b98)
-![gameplay4](https://github.com/user-attachments/assets/5126c8ce-ae1f-412b-a3e7-012258a02730)
+<img width="1920" height="1080" alt="lvl1_screen10" src="https://github.com/user-attachments/assets/81a91b65-2b3b-4718-b4f0-18394e200d84" />
+<img width="1920" height="1080" alt="lvl1_screen12" src="https://github.com/user-attachments/assets/f3ab9be6-beae-4f40-af69-8232183261be" />
+<img width="1920" height="1080" alt="settings_screen1" src="https://github.com/user-attachments/assets/074abdf4-ad73-4476-8d72-d7bdd943086b" />
+<img width="1920" height="1080" alt="lvl1_screen14" src="https://github.com/user-attachments/assets/6540034c-5881-4d64-847f-0db62342c2e7" />
+<img width="1920" height="1080" alt="lvl2_screen2" src="https://github.com/user-attachments/assets/eb5c07e7-e36c-4fe2-a630-c8ccce78679a" />
+<img width="1920" height="1080" alt="lvl1_screen5" src="https://github.com/user-attachments/assets/c946676c-dcbf-4878-b5fb-840acb9102a3" />
+<img width="1920" height="1080" alt="lvl3_screen1" src="https://github.com/user-attachments/assets/7789a891-d7bf-481a-b874-2a2b90ef8eaf" />
+<img width="1920" height="1080" alt="lvl1_screen6" src="https://github.com/user-attachments/assets/15780e26-78b3-4552-9018-2f18adf655f2" /><img width="1920" height="1080" alt="lvl1_screen7" src="https://github.com/user-attachments/assets/df1f17ae-01ea-4dad-bc5f-4b912ac5692b" />
+<img width="1920" height="1080" alt="settings_screen3" src="https://github.com/user-attachments/assets/3bcd04dd-02d5-4b0c-8490-a46396a88e5e" />
+<img width="1920" height="1080" alt="lvl1_screen8" src="https://github.com/user-attachments/assets/f26485c3-0bea-48e7-8747-44cbfcd7cfec" />
+<img width="1920" height="1080" alt="lvl1_screen11" src="https://github.com/user-attachments/assets/a7774049-1794-4a1a-b02d-1a1c9ca02b75" />
 
 --- 
 
 ## Weapon System
 
-Полноценная оружейная система с фиксированными слотами:
+A complete weapon system with dedicated weapon slots:
 
 **Weapon Slots**
 - Slot 1 — Rifle  
@@ -41,7 +29,7 @@
 - Slot 3 — Sniper  
 - Slot 4 — Shotgun  
 
-### Основные возможности
+### Features
 - Fire / Reload logic
 - ADS / Iron Sights (aiming = scope / ads)
 - Spray pattern
@@ -58,7 +46,7 @@
 
 ## First-Person Animation System
 
-Все анимации первого лица **созданы вручную в Sequencer**:
+All first-person animations were created manually using Sequencer:
 
 - Jog
 - Raise / Equip
@@ -76,7 +64,7 @@
 - Speed-driven, state-driven transitions
 
 ### Footstep System
-- main character: physical material based surface sound playback after reaching certain horizontal or vertical distance
+- Main Character: physical material based surface sound playback after reaching certain horizontal or vertical distance
 - AI: anim notify footsteps
 ---
 
@@ -116,9 +104,9 @@
 - First aid kits
 - kevlar pickups
 - Water bottle pickups for stamina
-- Все пикапы используют **общий Interact интерфейс**
-- Drop-system с модульной логикой
-- Pickup-звуки (включая падение объектов)
+- All pickups use a shared Interact interface.
+- Modular Drop System
+- Pickup sound effects (including object drop sounds)
 
 ### Interaction Feedback
 - `WBP_Take` widget
@@ -156,6 +144,39 @@
 
 ---
 
+## Context-sensitive HUD Hints
+
+- Animated action hints
+- Pulse animations
+- Dynamic key binding support
+- Automatic hint evaluation
+- Health / stamina / grenade usage suggestions
+
+---
+
+## Dynamic Input Visualization
+
+- Runtime key binding detection
+- Key texture synchronization
+- HUD key hints
+- Weapon slot key synchronization
+- Interact widget key synchronization
+- Fully compatible with rebinding
+
+---
+
+## Statistics System
+
+Runtime tracking of:
+
+- Time
+- Accuracy
+- Shots fired
+- Shots hit
+- Enemies killed
+
+Prepared for leaderboard integration.
+
 ## Animated HUD & UI System
 
 ### HUD
@@ -178,7 +199,7 @@
 
 ## Common UI Main Menu System
 
-Полноценная **Common UI** система меню:
+A fully featured menu system built with Common UI:
 
 ### Graphics Settings
 - Resolution
@@ -246,6 +267,15 @@
 
 ---
 
+### UI Polish
+
+- Fade animations
+- Pulse animations
+- Hover sounds
+- Apply / Reset feedback
+- Keyboard shortcuts
+- Animated notifications
+
 ## Level Design & World Building
 
 - Custom landscapes
@@ -294,8 +324,12 @@
 
 ## Persistence & Saves
 
+- Cross-level inventory persistence
+- Weapon restoration after level transitions
+- Runtime game progress tracking
+- Current run statistics
+- Persistent settings
+- Rebindable input mappings persistence
 - Save system via GameInstance
-- Cross-level saves
-- Separate save slot for settings
 
 ---
